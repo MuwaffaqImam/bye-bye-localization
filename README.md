@@ -1,5 +1,5 @@
 # Bye Bye Localization 👋
-Its just a simple `Text` widget that will provide fast translation for any text. it supports 59 languages.
+Its just a simple `Text` widget that will provide automatic fast translation for any text. it supports 59 languages.
 
 No more boring Localization configuration files, all you have to do is change your old `Text()` widget to `TranslatedText()` and enjoy the sweet sweet life without Localization
  
