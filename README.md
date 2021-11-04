@@ -5,6 +5,8 @@ No more Localization boring configuration files, all you have to do is change yo
  
 ## Demo
 
+https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8b0d-c11e8831d1f7.mp4
+
 
 # How to use?
 **Step 1: All you have to do is call the widget**
@@ -23,13 +25,19 @@ No more Localization boring configuration files, all you have to do is change yo
 
 **Step 3: Bye me Coffee, because I just saved you lots of time!**
 
+[Buy Me a Coffee](https://bit.ly/3bHVfGH)
+
+![coffee](https://user-images.githubusercontent.com/8396626/140408636-4b91040e-5d89-41e0-9fe4-0e814a142c62.png)
+
+## Quick example
+
+
 
 ## Live Demo
 below you will find a link to APK contains live demo 
 
 [Download APK](https://www.dropbox.com/s/3o6t4f9mxnf94hu/bye%20bye%20localization.apk?dl=0)
 
-##Author 
+## Author 
 Muwaffaq Imam
-
 - Edu email : m.imam@innopolis.university	
