@@ -1,4 +1,4 @@
-# bye_bye_localization
+# Bye Bye Localization 👋
 its Just a Simple `Text` widget That will provide fast translation for any text. it can translate to more than 56 languages.
 
 No more Localization boring configuration files, all you have to do is change your old `Text()` widget to `TranslatedText()` and enjoy the sweet sweet life without Localization
