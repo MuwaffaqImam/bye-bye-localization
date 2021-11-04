@@ -3,12 +3,12 @@ its Just a Simple `Text` widget That will provide fast translation for any text.
 
 No more Localization boring configuration files, all you have to do is change your old `Text()` widget to `TranslatedText()` and enjoy the sweet sweet life without Localization
  
-## Demo
+## Demo 📹
 
 https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8b0d-c11e8831d1f7.mp4
 
 
-# How to use?
+# How to use ?
 **Step 1: All you have to do is call the widget**
 
 `TranslatedText('your text');`
@@ -23,21 +23,21 @@ https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8
   } 
 `
 
-**Step 3: Bye me Coffee 🙂!**
+**Step 3: Bye me Coffee 🙂!** ☕️
 
 [Buy Me a Coffee](https://bit.ly/3bHVfGH)
 
 ![coffee](https://user-images.githubusercontent.com/8396626/140408636-4b91040e-5d89-41e0-9fe4-0e814a142c62.png)
 
-## Quick example
+## Quick example ⚡️
 
 
 
-## Live Demo
+## Live Demo 🔆
 below you will find a link to APK contains live demo 
 
 [Download APK](https://www.dropbox.com/s/3o6t4f9mxnf94hu/bye%20bye%20localization.apk?dl=0)
 
-## Author 
+## Author ✍️
 Muwaffaq Imam
 - Edu email : m.imam@innopolis.university	
