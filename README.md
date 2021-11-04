@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8
   } 
 `
 
-**Step 3: Bye me Coffee, because I just saved you lots of time!**
+**Step 3: Bye me Coffee 🙂!**
 
 [Buy Me a Coffee](https://bit.ly/3bHVfGH)
 
