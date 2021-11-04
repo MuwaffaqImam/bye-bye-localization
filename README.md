@@ -1,7 +1,7 @@
 # Bye Bye Localization 👋
-its Just a Simple `Text` widget That will provide fast translation for any text. it can translate to more than 56 languages.
+Its just a simple `Text` widget that will provide fast translation for any text. it supports 59 languages.
 
-No more Localization boring configuration files, all you have to do is change your old `Text()` widget to `TranslatedText()` and enjoy the sweet sweet life without Localization
+No more boring Localization configuration files, all you have to do is change your old `Text()` widget to `TranslatedText()` and enjoy the sweet sweet life without Localization
  
 ## Demo 📹
 
@@ -23,7 +23,7 @@ https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8
   } 
 `
 
-**Step 3: Bye me Coffee 🙂!** ☕️
+**Step 3: Buy me Coffee 🙂!** ☕️
 
 [Buy Me a Coffee](https://bit.ly/3bHVfGH)
 
