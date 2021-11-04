@@ -1,0 +1,19 @@
+name: bye_bye_localization
+description: A simple Text Widget, that can translate any text to any language using instant on device translation AI model, all you have to do is to provide the text and the widget will translate automatically, as a result you don't have to specify and localization files and type translation manually the widget will do it for you.
+version: 1.0.0+1
+homepage: https://github.com/MuwaffaqImam/bye-bye-localization
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_ml_kit: ^0.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
