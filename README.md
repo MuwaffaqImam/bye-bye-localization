@@ -12,7 +12,7 @@ https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8
 **Step 1: All you have to do is call the widget**
 
 ```dart
-TranslatedText('your text');
+TranslatedText('your text')
 ```
 
  **Step2: don't forget to call init the widget using the Manager**
