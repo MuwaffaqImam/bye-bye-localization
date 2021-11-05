@@ -5,7 +5,8 @@ No more boring Localization configuration files, all you have to do is change yo
  
 ## Demo 📹
 
-https://user-images.githubusercontent.com/8396626/140408608-34b49849-b767-4704-8b0d-c11e8831d1f7.mp4
+![Demo](https://github.com/MuwaffaqImam/bye-bye-localization/blob/main/demo/demo.gif)
+
 
 
 # How to use ?
