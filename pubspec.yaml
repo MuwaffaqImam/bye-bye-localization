@@ -1,6 +1,6 @@
 name: bye_bye_localization
 description: A simple Text Widget, that can translate any text to any language using instant on device translation AI model, all you have to do is to provide the text and the widget will translate automatically, as a result you don't have to specify and localization files and type translation manually the widget will do it for you.
-version: 1.0.0+1
+version: 1.0.0+4
 homepage: https://github.com/MuwaffaqImam/bye-bye-localization
 
 environment:
