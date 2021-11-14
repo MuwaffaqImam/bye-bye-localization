@@ -2,7 +2,9 @@
 Its just a simple `Text` widget that will provide automatic fast translation for any text. it supports 59 languages.
 
 No more boring Localization configuration files, all you have to do is change your old `Text()` widget to `TranslatedText()` and enjoy the sweet sweet life without Localization
- 
+
+PS: the translation will be fast as it uses translation model deployed to the device under the hood.
+
 ## Demo 📹
 
 ![Demo](https://github.com/MuwaffaqImam/bye-bye-localization/blob/main/demo/demo.gif)
