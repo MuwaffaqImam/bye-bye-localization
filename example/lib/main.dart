@@ -34,12 +34,13 @@ class _PdfExtractionState extends State<PdfExtraction> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text(
+          title:  TranslatedText(
             'Bye Bye Localization',
             style: TextStyle(fontSize: 24),
           ),
         ),
-        body: FutureBuilder(
+        body:
+        FutureBuilder(
           // Initialize FlutterFire:
           future: initTranslation(),
           builder: (context, snapshot) {
@@ -92,7 +93,8 @@ class _PdfExtractionState extends State<PdfExtraction> {
               ),
             );
           },
-        ));
+        )
+    );
   }
 
   TextEditingController _controller = new TextEditingController();

@@ -2,13 +2,13 @@ import 'package:bye_bye_localization/bye_bye_localization.dart';
 import 'package:google_ml_kit/google_ml_kit.dart';
 import 'dart:ui' as ui;
 
-
 /// Manager to help translate and download the AI Model for translation
 class TranslationManager {
   late String _originLanguage = Languages.ENGLISH;
   late String _translateTo = Languages.ARABIC;
   final _languageModelManager = GoogleMlKit.nlp.translateLanguageModelManager();
   late OnDeviceTranslator _onDeviceTranslator;
+  late bool isInitiated = false;
   static final TranslationManager _singleton = TranslationManager.initObject();
 
   /// save a singleton to help preserve the state of the manager
@@ -29,13 +29,15 @@ class TranslationManager {
     _translateTo = translateToLanguage ?? ui.window.locale.languageCode;
     _onDeviceTranslator = GoogleMlKit.nlp.onDeviceTranslator(
         sourceLanguage: _originLanguage, targetLanguage: _translateTo);
-    return await checkModels();
+    isInitiated = await checkModels();
+    return isInitiated;
   }
 
   /// handle the translation
   Future<String> translateText({
     required String text,
   }) async {
+    if (!isInitiated) return text;
     _onDeviceTranslator = GoogleMlKit.nlp.onDeviceTranslator(
       sourceLanguage: _originLanguage,
       targetLanguage: _translateTo,
@@ -64,6 +66,7 @@ class TranslationManager {
     });
     return Future.value(downloadStatus);
   }
+
   /// to download AI model
   Future<bool> _downloadModel(String language) async {
     print('^^^^^ downloading $language model');
